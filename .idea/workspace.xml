@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0c171b3-e5e9-4f32-821d-ab42799ae8a7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bOErBhWcqZyVtgqQyY8ws5VSgQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chromedriver" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chromedriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Test_Web_Apps_On_Mobile">
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="AppiumPro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppiumPro" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Web_Apps_On_Mobile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumPro.main" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test_Web_Apps_On_Mobile" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Web_Apps_On_Mobile.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumPro.main" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test_Web_Apps_On_Mobile" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Web_Apps_On_Mobile.testOnIos" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumPro.main" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test_Web_Apps_On_Mobile" />
+      <option name="METHOD_NAME" value="testOnIos" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <module name="AppiumPro" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test.webAppTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.AppiumPro" />
+      <item itemvalue="TestNG.Test_Web_Apps_On_Mobile" />
+      <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.firstTest" />
+      <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.testOnIos" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Test_Web_Apps_On_Mobile" />
+        <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.testOnIos" />
+        <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.firstTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0c171b3-e5e9-4f32-821d-ab42799ae8a7" name="Default Changelist" comment="" />
+      <created>1588494935588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588494935588</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="86" key="#Unnamed" timestamp="1588618541089">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="404" y="86" key="#Unnamed/0.23.1440.797@0.23.1440.797" timestamp="1588618541089" />
+    <state x="341" y="83" width="1071" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588619357097">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="341" y="83" width="1071" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1588619357097" />
+    <state x="457" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588619261078">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="457" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.797@0.23.1440.797" timestamp="1588619261078" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1588672295036">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1588663608395" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1588619740045" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1588672295036" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1588672295036">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1588663608392" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1588619740045" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1588672295036" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1588672295035">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1588663608391" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1588619740044" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1588672295035" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1588672295036">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1588663608393" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1588619740045" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1588672295036" />
+    <state x="229" y="23" key="SettingsEditor" timestamp="1588653803008">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1588653803008" />
+    <state x="386" y="57" width="667" height="729" key="find.popup" timestamp="1588505466525">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="386" y="57" width="667" height="729" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1588505466525" />
+    <state x="385" y="144" key="search.everywhere.popup" timestamp="1588653008564">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1588653008564" />
+  </component>
+</project>
