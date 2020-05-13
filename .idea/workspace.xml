@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0c171b3-e5e9-4f32-821d-ab42799ae8a7" name="Default Changelist" comment="" />
+    <list default="true" id="d0c171b3-e5e9-4f32-821d-ab42799ae8a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ChromeDriver81/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/API_Demos.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Baskin_Robbins.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test_Hybrid_Apps_On_Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test_Performance_Of_Android_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/test/webAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -15,7 +29,30 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AppiumPro" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AppiumPro" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AppiumPro" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -26,7 +63,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bOErBhWcqZyVtgqQyY8ws5VSgQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,20 +78,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chromedriver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ChromeDriver81" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="tasks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChromeDriver81" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/ChromeDriver83" />
+      <recent name="$PROJECT_DIR$/chromedriver_latest" />
       <recent name="$PROJECT_DIR$/chromedriver" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChromeDriver80" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test_Web_Apps_On_Mobile">
+  <component name="RunManager" selected="TestNG.Test_Hybrid_Apps_On_Mobile">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="AppiumPro" />
       <method v="2">
@@ -89,7 +140,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Test_Web_Apps_On_Mobile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Hybrid_Apps_On_Mobile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumPro.main" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -100,7 +151,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.Test_Web_Apps_On_Mobile" />
+      <option name="MAIN_CLASS_NAME" value="test.Test_Hybrid_Apps_On_Mobile" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -115,7 +166,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Web_Apps_On_Mobile.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Performance_Of_Android_App" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumPro.main" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test_Performance_Of_Android_App" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Performance_Of_Android_App.testMemoryUsage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppiumPro.main" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Test_Performance_Of_Android_App" />
+      <option name="METHOD_NAME" value="testMemoryUsage" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Web_Apps_On_Mobile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumPro.main" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -127,9 +231,8 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.Test_Web_Apps_On_Mobile" />
-      <option name="METHOD_NAME" value="firstTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -191,14 +294,18 @@
     <list>
       <item itemvalue="Gradle.AppiumPro" />
       <item itemvalue="TestNG.Test_Web_Apps_On_Mobile" />
-      <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.firstTest" />
       <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.testOnIos" />
+      <item itemvalue="TestNG.Test_Performance_Of_Android_App.testMemoryUsage" />
+      <item itemvalue="TestNG.Test_Performance_Of_Android_App" />
+      <item itemvalue="TestNG.Test_Hybrid_Apps_On_Mobile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_Hybrid_Apps_On_Mobile" />
+        <item itemvalue="TestNG.Test_Performance_Of_Android_App" />
+        <item itemvalue="TestNG.Test_Performance_Of_Android_App.testMemoryUsage" />
         <item itemvalue="TestNG.Test_Web_Apps_On_Mobile" />
         <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.testOnIos" />
-        <item itemvalue="TestNG.Test_Web_Apps_On_Mobile.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +323,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="87" key="#Project_Structure" timestamp="1589382813124">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="320" y="87" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1589284427505" />
+    <state x="320" y="87" key="#Project_Structure/0.23.1440.798@0.23.1440.798" timestamp="1589382813124" />
     <state x="404" y="86" key="#Unnamed" timestamp="1588618541089">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -228,30 +340,50 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="457" y="223" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.797@0.23.1440.797" timestamp="1588619261078" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1588672295036">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1589384003840">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1588663608395" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1588619740045" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1589382535914" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589384003840" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1588672295036" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1588672295036">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1589384003839">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1588663608392" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1588619740045" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1589382535913" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1589384003839" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1588672295036" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1588672295035">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1589384003839">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1588663608391" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1588619740044" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1589382535913" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1589384003839" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1588672295035" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1588672295036">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1589384003840">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1588663608393" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1588619740045" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1589382535914" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1589384003840" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1588672295036" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1589383910087">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1588795228871" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1589383910087" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1589383910086">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1588795228870" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1589383910086" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1589383910086">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1588795228869" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1589383910086" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1589383910086">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1588795228870" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1589383910086" />
     <state x="229" y="23" key="SettingsEditor" timestamp="1588653803008">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -260,9 +392,35 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="386" y="57" width="667" height="729" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1588505466525" />
+    <state x="114" y="35" key="new project wizard" timestamp="1589029540073">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="114" y="35" key="new project wizard/0.23.1440.797@0.23.1440.797" timestamp="1589029540073" />
     <state x="385" y="144" key="search.everywhere.popup" timestamp="1588653008564">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="385" y="144" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1588653008564" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Test_Hybrid_Apps_On_Mobile.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Test_Hybrid_Apps_On_Mobile.java</url>
+          <line>13</line>
+          <properties field="androidDriver" class="test.Test_Hybrid_Apps_On_Mobile" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

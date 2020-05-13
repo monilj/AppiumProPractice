@@ -9,6 +9,7 @@ import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -35,7 +36,7 @@ public class DesiredCap {
         iosDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         return iosDriver;
     }
-    public static AndroidDriver<AndroidElement> androidCapabilities() {
+    public static AndroidDriver<AndroidElement> androidCapabilities()  {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("chromedriverExecutable","/Users/dev/Documents/monilj/AppiumPro/chromedriver_latest/chromedriver");
@@ -50,6 +51,42 @@ public class DesiredCap {
         }
         androidDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         return androidDriver;
+    }
+
+    public static AndroidDriver<AndroidElement> androidCapForNativeApp() throws IOException {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability("deviceName", "Android Emulator");
+        capabilities.setCapability("automationName", "UiAutomator2");
+        capabilities.setCapability("app", "/Users/dev/Documents/monilj/AppiumPro/app/API_Demos.apk");
+
+        try {
+            androidDriver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        androidDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        return androidDriver;
+
+    }
+    public static AndroidDriver<AndroidElement> androidCapForChromeHybridApp() throws IOException {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability("chromedriverExecutable","/Users/dev/Documents/monilj/AppiumPro/ChromeDriver81/chromedriver");
+
+        capabilities.setCapability("deviceName", "Android Emulator");
+        capabilities.setCapability("automationName", "UiAutomator2");
+        capabilities.setCapability("appPackage", "com.android.chrome");
+        capabilities.setCapability("appActivity", "org.chromium.chrome.browser.ChromeTabbedActivity");
+
+        try {
+            androidDriver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        androidDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        return androidDriver;
+
     }
 
     }
