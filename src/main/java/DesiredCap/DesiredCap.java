@@ -89,4 +89,22 @@ public class DesiredCap {
 
     }
 
+    public static IOSDriver<IOSElement> iosSimulatorCapabilities() {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("platformName", "iOS");
+        capabilities.setCapability("platformVersion", "11.4");
+        capabilities.setCapability("deviceName", "iPhone 8 Plus");
+        capabilities.setCapability(prefix + MobileCapabilityType.UDID,"BE7FCD8B-DD2B-42E1-8160-70083675C097");
+        capabilities.setCapability(prefix + MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
+        capabilities.setCapability("connectHardwareKeyboard", false);
+        capabilities.setCapability("startIWDP", true);
+        try {
+            iosDriver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:8080/wd/hub"),capabilities);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+        iosDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        return iosDriver;
+    }
+
     }
