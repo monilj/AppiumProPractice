@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c171b3-e5e9-4f32-821d-ab42799ae8a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/TheApp-v1.3.0.app.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/StartNStopAppiumProgrammatically.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/test/Test_Hybrid_Apps_On_Mobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/test/Test_Performance_Of_Android_App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/test/Test_Web_Apps_On_Mobile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/test/SwitchingBetweenTheIosApps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/test/SwitchingBetweenTheIosApps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +82,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="tasks" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ChromeDriver80" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/ChromeDriver81" />
@@ -97,8 +92,14 @@
       <recent name="$PROJECT_DIR$/chromedriver_latest" />
       <recent name="$PROJECT_DIR$/chromedriver" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ChromeDriver80" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwitchingBetweenTheIosApps.openSimulator">
+  <component name="RunManager" selected="TestNG.SwitchingBetweenTheIosApps.switchAppBetweenTestExecution">
     <configuration default="true" type="Application" factoryName="Application">
       <module name="AppiumPro" />
       <method v="2">
@@ -139,7 +140,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SwitchingBetweenTheIosApps.openSimulator" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwitchingBetweenTheIosApps.switchAppBetweenTestExecution" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AppiumPro.main" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -148,10 +149,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_222" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.SwitchingBetweenTheIosApps" />
-      <option name="METHOD_NAME" value="openSimulator" />
+      <option name="METHOD_NAME" value="switchAppBetweenTestExecution" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -296,11 +299,11 @@
       <item itemvalue="TestNG.Test_Performance_Of_Android_App.testMemoryUsage" />
       <item itemvalue="TestNG.Test_Performance_Of_Android_App" />
       <item itemvalue="TestNG.Test_Hybrid_Apps_On_Mobile" />
-      <item itemvalue="TestNG.SwitchingBetweenTheIosApps.openSimulator" />
+      <item itemvalue="TestNG.SwitchingBetweenTheIosApps.switchAppBetweenTestExecution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SwitchingBetweenTheIosApps.openSimulator" />
+        <item itemvalue="TestNG.SwitchingBetweenTheIosApps.switchAppBetweenTestExecution" />
         <item itemvalue="TestNG.Test_Hybrid_Apps_On_Mobile" />
         <item itemvalue="TestNG.Test_Performance_Of_Android_App" />
         <item itemvalue="TestNG.Test_Performance_Of_Android_App.testMemoryUsage" />
@@ -322,22 +325,72 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1598606100490">
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598883421428">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1598610461314" />
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1598883421428" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1599041337858">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1598606100490" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1598606100489">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1598862278841" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1598855754782" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1599041337858" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1599041337857">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1598606100489" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1598606100489">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1598862278840" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1598855754781" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1599041337857" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1599041337857">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1598606100489" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1598606100490">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1598862278840" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1598855754780" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1599041337857" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1599041337857">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1598606100490" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1598862278841" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1598855754781" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1599041337857" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1598631096547">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1598631096547" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1598609022425" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1598631096547">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1598631096547" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1598609022424" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1598631096546">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1598631096546" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1598609022424" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1598631096547">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1598631096547" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1598609022425" />
+    <state x="221" y="60" key="SettingsEditor" timestamp="1598883400147">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="221" y="60" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1598609251739" />
+    <state x="221" y="60" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1598883400147" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1598608570420">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1440.804@0.23.1440.804" timestamp="1598608570420" />
+    <state x="385" y="191" key="run.anything.popup" timestamp="1598883117404">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="385" y="191" key="run.anything.popup/0.23.1440.806@0.23.1440.806" timestamp="1598883117404" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,8 +407,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>10</line>
+          <line>16</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/test/Test_Hybrid_Apps_On_Mobile.java</url>

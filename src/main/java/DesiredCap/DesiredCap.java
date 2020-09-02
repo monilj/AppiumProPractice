@@ -90,6 +90,7 @@ public class DesiredCap {
     }
 
     public static IOSDriver<IOSElement> iosSimulatorCapabilities() {
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("platformVersion", "11.4");
@@ -98,6 +99,8 @@ public class DesiredCap {
         capabilities.setCapability(prefix + MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
         capabilities.setCapability("connectHardwareKeyboard", false);
         capabilities.setCapability("startIWDP", true);
+        capabilities.setCapability("app","/Users/dev/Documents/monilj/AppiumProPractice/app/TheApp-v1.3.0.app.zip");
+
         try {
             iosDriver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:8080/wd/hub"),capabilities);
         } catch (MalformedURLException e) {
