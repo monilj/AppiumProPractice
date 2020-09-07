@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c171b3-e5e9-4f32-821d-ab42799ae8a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/StartNStopAppiumProgrammatically.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/DesiredCap/DesiredCap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/test/SwitchingBetweenTheIosApps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/test/SwitchingBetweenTheIosApps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/util/StartNStopAppiumProgrammatically.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/util/StartNStopAppiumProgrammatically.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/StartNStopAppiumProgrammatically.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/StartNStopAppiumProgrammatically.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,33 +329,33 @@
     </state>
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.804@0.23.1440.804" timestamp="1598610461314" />
     <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1598883421428" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1599041337858">
+    <state width="1398" height="446" key="GridCell.Tab.0.bottom" timestamp="1599476580667">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1598862278841" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1598855754782" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1599041337858" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1599474026675" />
+    <state width="1398" height="446" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1599476580667" />
     <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1599041337857">
+    <state width="1398" height="446" key="GridCell.Tab.0.center" timestamp="1599476580667">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1598862278840" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1598855754781" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1599041337857" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1599474026675" />
+    <state width="1398" height="446" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1599476580667" />
     <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1599041337857">
+    <state width="1398" height="446" key="GridCell.Tab.0.left" timestamp="1599476580667">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1598862278840" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1598855754780" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1599041337857" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1599474026674" />
+    <state width="1398" height="446" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1599476580667" />
     <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1599041337857">
+    <state width="1398" height="446" key="GridCell.Tab.0.right" timestamp="1599476580667">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1598862278841" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1598855754781" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1599041337857" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1599474026675" />
+    <state width="1398" height="446" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1599476580667" />
     <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1598887997720" />
     <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1598631096547">
       <screen x="0" y="23" width="1440" height="801" />
@@ -397,7 +396,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DesiredCap/DesiredCap.java</url>
-          <line>56</line>
+          <line>61</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -407,37 +406,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>16</line>
+          <line>22</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>28</line>
+          <line>27</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>33</line>
+          <line>32</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>27</line>
+          <line>26</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/SwitchingBetweenTheIosApps.java</url>
-          <line>40</line>
+          <line>39</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">

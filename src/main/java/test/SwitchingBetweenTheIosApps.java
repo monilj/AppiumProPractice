@@ -3,6 +3,8 @@ package test;
 import DesiredCap.DesiredCap;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -13,17 +15,13 @@ public class SwitchingBetweenTheIosApps {
 
     private String BUNDLE_ID = "io.cloudgrey.the-app";
 
+    @BeforeTest
+    public void setUp() {
+        iosDriver = DesiredCap.iosSimulatorCapabilities();
+    }
+
     @Test
     public void switchAppBetweenTestExecution() {
-
-//        boolean serverStatus = StartNStopAppiumProgrammatically.checkIfServerIsRunnning(4723);
-//        if(!serverStatus)
-//        {
-//            StartNStopAppiumProgrammatically.startAppium();
-//        }
-//        StartNStopAppiumProgrammatically.stopAppium();
-
-        iosDriver = DesiredCap.iosSimulatorCapabilities();
         try {
             HashMap<String, Object> args = new HashMap<>();
 //            args.put("bundleId", PHOTOS_BUNDLE_ID);
@@ -44,6 +42,12 @@ public class SwitchingBetweenTheIosApps {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
     }
 
+    @AfterTest
+    public void tearDown()
+    {
+        DesiredCap.stopAppium();
+    }
 }

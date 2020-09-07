@@ -7,7 +7,9 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import util.StartNStopAppiumProgrammatically;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -18,6 +20,9 @@ public class DesiredCap {
     static String prefix = "appium:";
     static IOSDriver<IOSElement> iosDriver;
     static AndroidDriver<AndroidElement> androidDriver;
+    private static AppiumDriverLocalService service;
+
+
     public static IOSDriver<IOSElement> iosCapabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "iOS");
@@ -88,26 +93,30 @@ public class DesiredCap {
         return androidDriver;
 
     }
-
     public static IOSDriver<IOSElement> iosSimulatorCapabilities() {
-
+        service= StartNStopAppiumProgrammatically.startAppium();
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("platformVersion", "11.4");
         capabilities.setCapability("deviceName", "iPhone 8 Plus");
-        capabilities.setCapability(prefix + MobileCapabilityType.UDID,"BE7FCD8B-DD2B-42E1-8160-70083675C097");
+        capabilities.setCapability(prefix + MobileCapabilityType.UDID,"13CA0566-1782-4068-B123-E30BEB7C9AA1");
         capabilities.setCapability(prefix + MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
         capabilities.setCapability("connectHardwareKeyboard", false);
         capabilities.setCapability("startIWDP", true);
         capabilities.setCapability("app","/Users/dev/Documents/monilj/AppiumProPractice/app/TheApp-v1.3.0.app.zip");
-
-        try {
-            iosDriver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:8080/wd/hub"),capabilities);
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
+        //iosDriver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:8080/wd/hub"),capabilities);
+        iosDriver = new IOSDriver<IOSElement>(service.getUrl(),capabilities);
         iosDriver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         return iosDriver;
     }
+
+    public static void stopAppium(){
+        boolean serverStatus = StartNStopAppiumProgrammatically.checkIfServerIsRunnning(4723);
+        if(serverStatus) {
+            service.stop();
+        }
+    }
+
+
 
     }
